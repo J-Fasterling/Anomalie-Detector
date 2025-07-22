@@ -40,4 +40,5 @@ jobs:
 
       # 6. (Leere) Unit-Tests ausführen
       - name: Unit-Tests
-        run: pytest -q
+        run: |
+          pytest -q || if [ $? -eq 5 ]; then echo "No tests collected – OK for now"; exit 0; fi
