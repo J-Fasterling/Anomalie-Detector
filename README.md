@@ -32,3 +32,24 @@ Dieses Repository demonstriert ein KI-gestütztes Predictive-Maintenance-Showcas
 │       └── __init__.py
 └── tests
     └── __init__.py
+```
+
+## Roadmap
+```mermaid
+flowchart LR
+    W0[W0: Kickoff] --> W1[W1: Data Pipeline]
+    W1 --> W2[W2: Twin Prototype]
+    W2 --> W3[W3: Twin Validation]
+    W3 --> W4[W4: RUL Model]
+    W4 --> W5[W5: RL Training]
+    W5 --> W6[W6: Integration & Docker]
+    W6 --> W7[W7: Demo & Docs]
+    W7 --> W8[W8: Launch]
+```
+
+## Quickstart
+- **Klonen & Wechseln:**  
+  `git clone https://github.com/J-Fasterling/Anomalie-Detector.git && cd Anomalie-Detector`
+- **Einrichten & Demo starten:**  
+  `./scripts/setup_repo.sh`  # installiert Abhängigkeiten, lädt Daten, baut Container
+- **CI prüfen:** Commit pushen oder PR öffnen – Badge oben muss grün sein
