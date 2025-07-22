@@ -4,7 +4,7 @@
 Dieses Repository demonstriert ein KI-gestütztes Predictive-Maintenance-Showcase, das Ausfälle vorhersagt, einen physikbasierten Digital-Twin simuliert und per Reinforcement Learning den Betrieb optimiert. Es liefert reproduzierbare Pipelines, nachvollziehbare Metriken und eine sofort nutzbare Demo.
 
 ## Badges
-[![Build](https://github.com/<USER>/<REPO>/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/J-Fasterling/Anomalie-Detector/actions/workflows/ci.yml)
+[![Build](https://github.com/J-Fasterling/Anomalie-Detector/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/J-Fasterling/Anomalie-Detector/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue)](TODO)
 
 ## Projektstruktur
