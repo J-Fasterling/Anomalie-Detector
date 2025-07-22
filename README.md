@@ -19,17 +19,13 @@ Dieses Repository demonstriert ein KI-gestütztes Predictive-Maintenance-Showcas
 ├── README.md
 ├── SCOPE.md
 ├── scripts
-│   └── __init__.py
+│   └── setup_repo.sh
 ├── src
 │   ├── __init__.py
-│   ├── ml
-│   │   └── __init__.py
-│   ├── rl
-│   │   └── __init__.py
-│   ├── stream
-│   │   └── __init__.py
-│   └── twin
-│       └── __init__.py
+│   ├── ml/     …
+│   ├── rl/     …
+│   ├── stream/     …
+│   └── twin/     …
 └── tests
     └── __init__.py
 ```
