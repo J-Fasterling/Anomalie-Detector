@@ -29,7 +29,10 @@ jobs:
 
       # 4. Lint-Check mit Ruff
       - name: Ruff-Lint
-        run: ruff .
+        run: ruff check .
+
+      - name: Ruff-Format-Check
+        run: ruff format --check .
 
       # 5. Statistisches Type-Checking mit mypy
       - name: Type-Check
