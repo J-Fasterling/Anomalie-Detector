@@ -36,15 +36,20 @@ Dieses Repository demonstriert ein KI-gestütztes Predictive-Maintenance-Showcas
 
 ## Roadmap
 ```mermaid
-flowchart LR
-    W0[W0: Kickoff] --> W1[W1: Data Pipeline]
-    W1 --> W2[W2: Twin Prototype]
-    W2 --> W3[W3: Twin Validation]
-    W3 --> W4[W4: RUL Model]
-    W4 --> W5[W5: RL Training]
-    W5 --> W6[W6: Integration & Docker]
-    W6 --> W7[W7: Demo & Docs]
-    W7 --> W8[W8: Launch]
+gantt
+    title 8-Wochen-Roadmap
+    dateFormat  YYYY-MM-DD
+    axisFormat  %W   %% Kalenderwoche
+    section Sprints
+    Kickoff                :milestone, 2025-07-22, 0d
+    Data Pipeline          :active,  2025-07-23, 7d
+    Twin Prototype         :         2025-07-30, 7d
+    Twin Validation        :         2025-08-06, 7d
+    RUL Model              :         2025-08-13, 7d
+    RL Training            :         2025-08-20, 7d
+    Integration & Docker   :         2025-08-27, 7d
+    Demo & Docs            :         2025-09-03, 7d
+    Launch                 :milestone, 2025-09-10, 0d
 ```
 
 ## Quickstart
